@@ -62,6 +62,8 @@
     font-size: 2rem;
     font-family: sans-serif;
     background: #f700ff;
+    border: 2px solid black;
+    color:black;
 }
 
 #activate:active {
