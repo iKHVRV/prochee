@@ -1,0 +1,69 @@
+#dr {
+    display: none;
+    width: 400px;
+    height: 200px;
+    border: 5px solid #000000;
+    border-radius: 0 50px 0 50px;
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    box-shadow: 0px 3px 20px 0px #ff02f2;
+    transition: all 0.5s;
+}
+
+#dr.active3 {
+    box-shadow: 0px 3px 100px 0px #ff02f2;
+}
+
+#text {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 60px 0 0 0;
+    color: #000000;
+    font-family: sans-serif;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#text.active {
+    opacity:1;
+}
+
+#text2 {
+    position: absolute;
+    font-size: 3.0rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: -60px 0 0 65px;
+    font-family: sans-serif;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#text2.active2 {
+    opacity: 0;
+}
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#activate {
+    display: block;
+    width: 200px;
+    height: 100px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background: #f700ff;
+}
+
+#activate:active {
+    border: 5px solid black;
+}
